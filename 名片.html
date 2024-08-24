@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="头像.jpg">
+    <title>名片</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to top, #9597f9 0%, #fbc8d4 100%);
+        }
+
+        .shell {
+            width: 780px;
+            height: 580px;
+            background: #ffffff;
+            position: relative;
+        }
+
+        .head {
+            height: 340px;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .head::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: url(../images/背景3.webp);
+            z-index: -1;
+            transform: skewY(-4deg);
+            transform-origin: 0 0;
+        }
+
+        .cover {
+            position: absolute;
+            top: 190px;
+            left: 25px;
+            width: 220px;
+            z-index: 2;
+            border-radius: 500px;
+            border: 10px #fff solid;
+            box-sizing: 0 5px 10px #00000065;
+        }
+
+        .data {
+            padding: 190px 0 0 280px;
+            text-shadow: 0 0 20px #000;
+        }
+
+        .data .titlel {
+            color: white;
+            font-size: 50px;
+            font: 900 50px;
+            margin-bottom: 5px;
+            position: relative;
+        }
+
+        .data .titlel span {
+            position: absolute;
+            top: 17px;
+            margin-left: 12px;
+            background: #ffe44c;
+            border-radius: 5px;
+            color: #000000;
+            font-size: 14px;
+            padding: 0px 4px;
+        }
+
+        .data .title2 {
+            color: #fff;
+            font: 500 24px;
+        }
+
+        .foot {
+            line-height: 26px;
+            color: #444;
+        }
+
+        .tags {
+            padding-left: 30px;
+            padding-top: 100px;
+            width: 250px;
+            float: left;
+            text-align: center;
+        }
+
+        .tag {
+            background: rgb(149, 178, 255);
+            color: #fff;
+            border-radius: 10px;
+            padding: 3px 8px;
+            font-size: 14px;
+            margin-right: 4px;
+            line-height: 35px;
+            cursor: pointer;
+        }
+
+        .tag:hover {
+            background: #eee4ad;
+            color: #444;
+        }
+
+        .introduce {
+            padding: 25px 0 0 35px;
+            width: 480px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shell">
+        <img src="../images/卡片.jpg" alt="卡片" class="cover">
+        <div class="head">
+            <div class="data">
+                <div class="titlel">百事都可乐<span>&Lin</span></div>
+                <div class="title2">前端开发新手小白</div>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="tags">
+                <span class="tag">#HTML</span>
+                <span class="tag">#CSS</span>
+                <span class="tag">#MaYa</span>
+                <span class="tag">#c4d</span>
+                <span class="tag">#ZBrush</span>
+                <span class="tag">#Vscode</span>
+                <span class="tag">#C语言</span>
+            </div>
+            <div class="introduce">
+                <p>
+                    Hello everyone!. I have a wide range of skills. I am proficient in HTML and CSS, which are essential
+                    for web development. I also have expertise in using software like MAYA, C4D, ZBrush, and Vscode.
+                    Additionally, I know C language. I am capable of 3D modeling and animation production. I have a
+                    great passion for 3D modeling and find it extremely fascinating. I am always eager to explore new
+                    techniques and create amazing 3D works.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
