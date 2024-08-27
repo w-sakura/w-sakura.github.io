@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    color: #f4f1de;
+
+}
+
+
+body {
+    background-color: #E9EBFE;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation {
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #a18cd1);
+}
+
+.shell {
+    display: flex;
+    justify-content: center;
+}
+
+.button,
+.portrait {
+    background-color: #50536e;
+    width: 170px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    transform: .3s;
+    cursor: pointer;
+}
+
+.portrait::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(30px, -30px);
+    background-image: url(../images/头像.jpg);
+    background-size: cover;
+    border: 10px solid #fff;
+}
+
+.intformation {
+    width: 220px;
+    background-color: #e07a5f;
+    transform: translate(-20px, -200px);
+    border-radius: 10px;
+    padding: 20px 0;
+    line-height: 0;
+    height: 0;
+    transition: .3s;
+    opacity: 0;
+}
+
+.button:hover {
+    background-color: #d15a39;
+}
+
+.button li:hover {
+    background-color: #ffb29d;
+}
+
+.button ul li {
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translate(-65px);
+    background-color: #e07a5f;
+}
+
+.button:hover li {
+    height: 65px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.portrait:hover .intformation {
+    opacity: 1;
+    line-height: 65px;
+    transform: translate(-20px, -10px);
+    height: auto;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+
+#select {
+    display: none;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 50px 10px rgb(0, 0, 0, .3);
+    text-align: center;
+}
+
+.img {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景6.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img2 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景5.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img3 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景4.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img4 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景3.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img5 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景9.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img6 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景8.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+    margin: 30px 0 15px 0;
+    transition: all .6s;
+    transition-delay: .2s;
+}
+
+.content {
+    display: none;
+    height: 1300px;
+    text-align: center;
+    padding: 0 20%;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+
+
+.content p {
+    margin: 20px 0;
+    text-align: left;
+    display: table;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 0 20px;
+    /* 两个盒子之间添加一些间隔 */
+}
