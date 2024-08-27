@@ -149,6 +149,13 @@ p {
     background-size: cover;
 }
 
+.img6 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景8.webp) no-repeat center center;
+    background-size: cover;
+}
+
 .title {
     font-size: 30px;
     color: rgb(88, 88, 88);
