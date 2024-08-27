@@ -8,19 +8,8 @@
 }
 
 
-/* body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(to right, #a18cd1);
-} */
-.da {
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(to right, #a18cd1);
+body {
+    background-color: #E9EBFE;
 }
 
 a {
@@ -104,45 +93,93 @@ a {
     height: auto;
 }
 
-
-.chell {
-    width: 90%;
-    height: 750px;
-    display: flex;
+h2 {
+    color: black;
 }
 
-.box {
-    flex: 1;
-    overflow: hidden;
-    transition: .5s;
-    margin: 0 20px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
-    border-radius: 20px;
-    border: 10px solid #fff;
-    background-color: #fff;
+p {
+    color: black;
 }
 
-.box>img {
-    width: 200%;
-    height: 85%;
-    object-fit: cover;
-    transition: .5s;
+
+#select {
+    display: none;
 }
 
-.box>span {
-    font: 200 45px '优设标题黑';
+.card {
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 50px 10px rgb(0, 0, 0, .3);
     text-align: center;
-    height: 15%;
+}
+
+.img {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景6.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img2 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景5.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img3 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景4.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img4 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景3.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.img5 {
+    width: 400px;
+    height: 230px;
+    background: url(../images/背景9.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+    margin: 30px 0 15px 0;
+    transition: all .6s;
+    transition-delay: .2s;
+}
+
+.content {
+    display: none;
+    height: 1300px;
+    text-align: center;
+    padding: 0 20%;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+
+
+.content p {
+    margin: 20px 0;
+    text-align: left;
+    display: table;
+}
+
+.content2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.box:hover {
-    flex-basis: 40%;
-}
-
-.box:hover>img {
-    width: 100%;
-    height: 100%;
+.box {
+    margin: 0 20px;
+    /* 两个盒子之间添加一些间隔 */
 }

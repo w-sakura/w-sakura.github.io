@@ -31,21 +31,21 @@ p {
 .img {
     width: 400px;
     height: 230px;
-    background: url(../images/江南.jpg) no-repeat center center;
+    background: url(../images/悟空.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .img2 {
     width: 400px;
     height: 230px;
-    background: url(../images/烟雨.jpg) no-repeat center center;
+    background: url(../images/泰坦.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .img3 {
     width: 400px;
     height: 230px;
-    background: url(../images/向往.jpg) no-repeat center center;
+    background: url(../images/大表哥.jpg) no-repeat center center;
     background-size: cover;
 }
 
